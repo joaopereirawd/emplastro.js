@@ -49,7 +49,7 @@ jQuery.fn.emplastro = function( options ) {
 
 
 	var t =  emplastro;
-	console.log(emplastro);
+	//console.log(emplastro);
 	
 	switch (settings.side) {
 	    case 'left':
