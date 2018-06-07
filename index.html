@@ -4,24 +4,25 @@
 <style>
 	body {
 		position:relative;
-		background:#f2f2f2;
+		background:#6e61b3;
 		margin:0px;
 		padding:0px;
 	}
-	.teste {
-		position:absolute;
-		left:0px;
-		transition: all .2s;
-	}
-
 </style>
 </head>
 <body>
-	<div class="teste">
-		<a href="http://desciclopedia.org/wiki/Emplastro" target="_blank"><img src="img/emp-small.png"></a>
-	</div>
+	<div class="emplastro"></div>
 	<div style="height:2000px;"></div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/emplastro.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.emplastro').emplastro({
+				width:'60px',
+				height:'60px',	
+				borderRadius:'50px'
+			});
+		});
+	</script>
 </body>
 </html>
